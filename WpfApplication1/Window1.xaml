@@ -1,0 +1,14 @@
+﻿<controls:MetroWindow xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="WpfApplication1.Window1"
+        Title="好友列表" Height="400" Width="250">
+    <StackPanel>
+            <TreeViewItem Header="我的好友">
+            <ItemsControl>
+                <Image Source="./img/h2.bmp" Width="50"></Image>
+                <Label>老冰棍</Label>
+            </ItemsControl>
+            <ItemsControl>唐伯虎</ItemsControl>
+            <ItemsControl>龙傲天</ItemsControl>
+        </TreeViewItem>
+
+    </StackPanel>
+</controls:MetroWindow>
